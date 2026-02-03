@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Data climate (lourd)
+data/
+*.nc
+*.h5
+*.npy
+*.zarr
+
+# Outputs / models
+outputs/
+models/
+logs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
