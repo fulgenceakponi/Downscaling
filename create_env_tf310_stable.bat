@@ -29,7 +29,10 @@ pip install tensorflow==2.10.1
 REM 6. Outils ML utiles
 pip install scikit-learn==1.3.2 joblib==1.3.2
 
-REM 7. Vérification
+REM 7.
+conda install -c menpo wget -y
+
+REM 8. Vérification
 python - << EOF
 import numpy as np, xarray as xr, tensorflow as tf, dask
 print("NUMPY:", np.__version__)
